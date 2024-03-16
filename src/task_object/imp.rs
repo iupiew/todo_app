@@ -24,6 +24,7 @@ impl ObjectSubclass for TaskObject {
     type Type = super::TaskObject;
 }
 
+
 // Trait shared by all GObjects
 #[glib::derived_properties]
 impl ObjectImpl for TaskObject {}
